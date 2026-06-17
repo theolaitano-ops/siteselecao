@@ -149,3 +149,36 @@ nav ul{
     padding: 0;
 }
 
+.jg1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 20px;
+    border: 5px solid black;
+    background-color: rgb(1, 22, 143);
+    justify-content: center;
+}
+
+.jg2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 20px;
+    border: 5px solid black;
+    background-color: rgb(1, 22, 143);
+    justify-content: center;
+}
+
+.jg3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 20px;
+    border: 5px solid black;
+    background-color: rgb(1, 22, 143);
+    justify-content: center;
+}
+
