@@ -96,6 +96,25 @@ body{
    
 }
 
+.historia01{
+     display: flex;
+    flex-direction: row;
+    align-items: center;      
+    justify-content: space-between; 
+    gap: 30px;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border: 3px solid black;
+    background-color: rgb(1, 22, 143);
+   
+}
+
+.historia01  img{
+    max-width: 40%;           
+    height: auto;             
+    border: 2px solid yellow; 
+}
+
 .historia1 img {
     max-width: 40%;           
     height: auto;             
@@ -152,9 +171,8 @@ nav ul{
 .jg1{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
-    gap: 10px;
-    margin-top: 20px;
+    padding: 40px;
+    height: auto;
     border: 5px solid black;
     background-color: rgb(1, 22, 143);
     justify-content: center;
@@ -182,3 +200,50 @@ nav ul{
     justify-content: center;
 }
 
+.moti {
+    /* Ativa o Flexbox para que as propriedades abaixo funcionem */
+    display: flex; 
+    /* column deixa a imagem em cima e o texto embaixo. Se quiser um do lado do outro, mude para row */
+    flex-direction: column; 
+    /* Centraliza os elementos horizontalmente */
+    align-items: center;      
+    /* Centraliza os elementos verticalmente se houver espaço */
+    justify-content: center;
+    
+    gap: 30px;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border: 3px solid black;
+    background-color: rgb(1, 22, 143);
+    text-align: center; /* Garante que o texto também fique centralizado */
+}
+
+/* Nova classe para garantir que a div da imagem colabore com a centralização */
+.box-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.moti img {
+    max-width: 100%; /* Evita que a imagem quebre a tela em telas menores */
+    height: auto;             
+    border: 2px solid yellow; 
+}
+
+.boasvindas{
+     display: flex; 
+    /* column deixa a imagem em cima e o texto embaixo. Se quiser um do lado do outro, mude para row */
+    flex-direction: column; 
+    /* Centraliza os elementos horizontalmente */
+    align-items: center;      
+    /* Centraliza os elementos verticalmente se houver espaço */
+    justify-content: center;
+    
+    gap: 30px;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border: 3px solid black;
+    background-color: rgb(1, 22, 143);
+    text-align: center;
+}
